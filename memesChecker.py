@@ -221,7 +221,7 @@ def predict_meme_virality(title, post_hour=None, model=None, scaler=None):
 #Streamlit app
 def main():
     st.title("Meme Virality Predictor")
-    st.write("Enter a meme title and posting hour to predict if it’ll go viral!")
+    st.write("Enter a meme and posting hour to predict if it’ll go viral!")
 
     # Load or train model
     model, scaler = load_or_train_model()
